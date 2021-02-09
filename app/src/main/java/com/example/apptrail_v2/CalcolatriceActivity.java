@@ -19,7 +19,7 @@ public class CalcolatriceActivity extends AppCompatActivity {
 
         canon.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
 
             }
         });
