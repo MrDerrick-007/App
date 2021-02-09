@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    tools:context=".CalcolatriceActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:backgroundTint="#424242"
+        android:translationY="-100dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_centerInParent="true"
+            android:text="SELEZIONA MARCA FOTOCAMERA"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:translationY="130dp" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <!--    primo bottone   (canon) -->
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="233dp"
+        android:layout_height="129dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#707070"
+        android:translationY="40dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp">
+
+        <ImageButton
+            android:id="@+id/canon"
+            android:layout_width="276dp"
+            android:layout_height="144dp"
+            android:backgroundTint="#707070"
+            android:onClick="calcolatrice2"
+            android:scaleType="centerInside"
+            android:src="@drawable/canon"
+            android:translationX="-21dp"
+            android:translationY="-10dp" />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+    <!--    secondo bottone  (nikon)-->
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="233dp"
+        android:layout_height="129dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#707070"
+        android:translationY="230dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp">
+
+        <ImageButton
+            android:id="@+id/nikon"
+            android:layout_width="250dp"
+            android:layout_height="158dp"
+            android:backgroundTint="#707070"
+            android:onClick="calcolatrice2"
+            android:scaleType="centerInside"
+            android:src="@drawable/nikon"
+            android:translationX="-11dp"
+            android:translationY="-15dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+<!--    terzo bottone-->
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="233dp"
+        android:layout_height="129dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#707070"
+        android:translationY="-150dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp">
+
+        <ImageButton
+            android:id="@+id/sony"
+            android:layout_width="202dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#707070"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sony" />
+    </androidx.cardview.widget.CardView>
+
+    <!--    info bottone-->
+
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:backgroundTint="#303030"
+        android:scaleType="centerInside"
+        android:src="@drawable/info"
+        android:translationX="300dp"
+        android:translationY="650dp" />
+
+</RelativeLayout>
